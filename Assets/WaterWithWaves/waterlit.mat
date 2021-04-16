@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: waterlit
-  m_Shader: {fileID: -6465566751694194690, guid: aa8a5970430a3324f93a5ada9d5b00c6, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 6b4d6ce959d0fb44db40783d8a226a65, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -99,10 +99,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_42a8be8a0bca44528d397c441587f56e: 0.5
-    - Vector1_58f3d95dee6c495b87b8573824d880b2: 0.97
+    - Vector1_4f469adc929c4fe6a0ae29de343dc92a: 0.1
+    - Vector1_58f3d95dee6c495b87b8573824d880b2: 1.4
     - Vector1_75c4a98d0b0c45d6940459617ac4cb50: 0.855
     - Vector1_ceebd9b1b7ab458cbbec0a93fd3eaa2d: 0.54
-    - Vector1_d912bf75419d480396133b1ef89725d1: 0.002
+    - Vector1_d912bf75419d480396133b1ef89725d1: -0.29
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -130,10 +131,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - Color_11a51c77c3ec403da41ead27c17bc870: {r: 0.20870416, g: 0.38699618, b: 0.6603774, a: 0.8352941}
-    - Color_c338c775deee4ae6a1241d63fef17b9c: {r: 0.0018244971, g: 0.007839622, b: 0.38679248, a: 0.43137255}
+    - Color_11a51c77c3ec403da41ead27c17bc870: {r: 0.31759524, g: 0.42235756, b: 0.5754717, a: 0.6392157}
+    - Color_c338c775deee4ae6a1241d63fef17b9c: {r: 0, g: 0.001737828, b: 0.066037714, a: 0.46666667}
     - Vector2_24410a4377a745bf8a6ecb982734a3dd: {r: 10, g: 10, b: 0, a: 0}
     - Vector2_3ae25a9f07e54f4aba7df6735fbf9680: {r: 5, g: 5, b: 0, a: 0}
+    - Vector2_d53e78db1a84468ea06f81c587170354: {r: 0.1, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 0.41108933, g: 0.5849056, b: 0.56813383, a: 0.56078434}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
