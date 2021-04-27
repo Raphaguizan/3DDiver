@@ -21,7 +21,8 @@ public class UnderWaterChanges : MonoBehaviour
 
     private void Update()
     {
-        if (lookDistance.position.y < WaveManager.Instance.GetWaveHeight(transform.position.x))
+        if (lookDistance.position.y < rippleSharp.Instance.GetWaveHeigth(transform.position))
+       // if (lookDistance.position.y < WaveManager.Instance.GetWaveHeight(transform.position.x))
         {
             RenderSettings.fogColor = underWaterColor;
             RenderSettings.fogDensity = underWaterFogDensity;

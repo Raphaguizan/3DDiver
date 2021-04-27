@@ -52,6 +52,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "mousePosition",
+                    "type": "Value",
+                    "id": "49606e29-8404-4e4d-9187-5e5157d88a1c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -459,6 +467,17 @@
                     "processors": "",
                     "groups": "myControl",
                     "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01109eef-3fa2-47ee-b163-81be905e0c4a",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "mousePosition",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

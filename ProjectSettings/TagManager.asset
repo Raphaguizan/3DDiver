@@ -5,14 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - floater
+  - water
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - boat
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 

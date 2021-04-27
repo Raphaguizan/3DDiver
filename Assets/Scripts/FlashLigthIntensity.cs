@@ -23,6 +23,7 @@ public class FlashLigthIntensity : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 4))
         {
+            if (hit.transform.CompareTag("water")) return;
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.red);
             lt.intensity =  initialIntensity - (modifier / hit.distance);
 
